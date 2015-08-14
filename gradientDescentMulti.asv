@@ -20,7 +20,7 @@ for iter = 1:num_iters
     for ii = 1:size(theta)
         tempo(ii) = sum((X*theta - y).*X(:, ii));
     end
-    theta = theta - alpha*tempo/m;
+    
 
 
 
